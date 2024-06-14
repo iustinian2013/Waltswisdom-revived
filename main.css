@@ -1,0 +1,141 @@
+/* -------------------------------------------------------------
+	Resets default browser CSS.  
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%;font-family: inherit;vertical-align: baseline;}
+:focus {outline: 0;}
+body {color: #000;background: #fafafa;}
+ol, ul {list-style: none;}
+caption, th, td {text-align: left;font-weight: normal;}
+blockquote:before, blockquote:after, q:before, q:after {content: "";}
+blockquote, q {quotes: "" "";}
+table { border-collapse: collapse; border-spacing: 0; }
+a img { border: none; }
+
+/* -------------------------------------------------------------
+	Default typography.
+-------------------------------------------------------------- */
+
+body {font-size:100%;}
+
+/*
+font-sizes should be declared in ems - see http://www.alistapart.com/articles/howtosizetextincss
+18px = 1.125em, 16px = 1em, 14px = 0.875em, 12px = 0.75em, 10px = 0.556em
+*/
+
+body { font-family: Arial, sans-serif; }
+h1,h2,h3,h4,h5,h6 { font-family: Helvetica, Arial, sans-serif; font-weight: bold;line-height:1.125em;}
+h1 { font-size: 2em; }
+h2 { font-size: 1.625em; }
+h3 { font-size: 1.25em; } 
+h4 { font-size: 1.125em; }
+h5 { font-size: 1em; }
+h6 { font-size: 0.875em; }
+p, ul, ol, dl { font-size:0.75em;line-height:1.125em;}
+
+address { font-style: normal; font-size: 0.75em;line-height:1.125em;}
+strong { font-weight: bold; }
+em { font-style: italic; }
+
+/* -------------------------------------------------------------
+	Header section styles
+-------------------------------------------------------------- */
+
+.header {margin-bottom:24px;}
+.header .top {padding: 0 58px; margin: 0 auto; background: #000 url(/web/20110726114411im_/http://www.waltswisdom.com/images/bg_gradient.jpg) left top repeat-x;color: #a1c24d; border-bottom: 5px solid #A1C24D;height:35px;overflow:hidden;min-width:884px; }
+.header .top h3 {float:left;background: url(/web/20110726114411im_/http://www.waltswisdom.com/images/logo_1.jpg) left top no-repeat;text-indent: -5000px;overflow:hidden;height: 35px;width: 230px;}
+.header .top p {float:right;background: url(/web/20110726114411im_/http://www.waltswisdom.com/images/logo_2.jpg) left top no-repeat;text-indent: -5000px;overflow:hidden;height: 35px;width: 229px;}
+.header .top hr {padding:0;margin:0;clear:both;height:1px;visibility:hidden;}
+
+.header .titleholder {background: #639bd0 url(/web/20110726114411im_/http://www.waltswisdom.com/images/bg_title1.jpg) left top repeat-x;min-width:1000px;}
+.header .title {padding: 30px 58px; margin: 0 auto;background: url(/web/20110726114411im_/http://www.waltswisdom.com/images/bg_title.jpg) left top no-repeat;color:#fff;text-align:right;min-width:884px;}
+.header .title h1 {font-size: 2.6875em;line-height:1.2em;}
+.header .title h2 {font-size: 1.375em;line-height:1.2em;}
+
+.header .nav {padding: 0 58px; margin: 0 auto;background: #000 url(/web/20110726114411im_/http://www.waltswisdom.com/images/bg_gradient.jpg) left top repeat-x;min-height:35px;text-align:right;font-size:1em;line-height:35px;min-width:884px;}
+.header .nav li {display:inline;text-align:right;}
+.header .nav li a {text-decoration:none;color:#4586be;padding-left: 20px;}
+.header .nav li a:hover {color:#57b3ff;}
+
+/* -------------------------------------------------------------
+	Main section styles
+-------------------------------------------------------------- */
+
+.main {margin: 0 58px;min-width:884px;}
+
+.main .blogcnt {float:left;width:60%;}
+.main .entrydate {width:50px;float:left;background: url(/web/20110726114411im_/http://www.waltswisdom.com/images/bg_date.jpg) left top no-repeat;text-align:center;height:50px;font-weight:bold;}
+.main .entrydate .month {display:block;text-transform:uppercase;color:#fff;font-size:10px;line-height:15px;width:44px;height:15px;text-align:center;}
+.main .entrydate .day {display:block;font-size:20px;width:43px;line-height:32px;text-align:center;}
+
+.main .entrycnt {margin-left:50px;}
+.main .entryinfo {clear:both;border-top:1px dotted #999;border-bottom:1px dotted #999;float:left;width:100%;margin-bottom:24px;}
+.main .entrycnt h1 {color:#0b0b0b;font-size:1.5625em;}
+.main .entrycnt p {margin: 1em 0;font-size:0.8125em;font-weight:bold;color:#666;}
+.main .entrycnt p img {padding: 3px; border: 1px solid #999;float:left;margin:0 10px 10px 0;}
+.main hr.entryclearer {clear:both;height:1px;overflow:hidden;visibility:hidden;margin:0;padding:0;border:0;}
+.main .connect p {margin: 5px 0 7px;}
+
+.main .entrymedia {border-top: 1px dotted #999;padding: 20px 0;text-align: center;clear:both;}
+.main .entrymedia div.flashholder {width:488px;height:280px;margin: 0 auto;overflow:hidden;}
+.main .entrymedia form#embedForm {margin-top:20px;}
+.main .entrymedia form#embedForm label {margin-right:5px;font-size:0.8125em;font-weight:bold;}
+.main .entrymedia form#embedForm input {width:420px;font-size:0.8125em;}
+
+.main .entryinfo h3 {font-size: 0.7em; color: #666;float:left;line-height:25px;}
+.main .entryinfo h3.comments {float:right;}
+.main .entryinfo h3.comments a {display:block;padding-left: 14px; background: url(/web/20110726114411im_/http://www.waltswisdom.com/images/comments.gif) left center no-repeat;text-decoration:none;color:#666;}
+.main .entryinfo h3.comments a span {color: #006699;}
+
+.main .credit {text-align:right;clear:both;padding:0 0 24px 0;}
+
+.main .sidebar {float:right;width:35%;}
+.main .sidebarcnt {background: #ececec; padding: 5px;}
+.main .sidebarcnt .inner {border: 1px solid #d3d3d3; padding: 9px 12px 60px;}
+.main .sidebar h2 {font-size:1.125em;color:#4f5b77;}
+.main .sidebar form {margin-top: 10px;margin-bottom: 20px;}
+.main .sidebar form, .main .sidebar form input {vertical-align:middle;}
+.main .sidebar input.text {width: 230px;font-size:13px;padding-left:2px;}
+.main .sidebar ul {margin:5px 0 20px 10px;}
+.main .sidebar ul a {text-decoration: none; color: #8CA9C5;font-weight:bold;font-size:1.23em;line-height:1.2em;}
+
+.main .sidebar .gads {padding: 20px 0 0 18px;}
+
+
+/* -------------------------------------------------------------
+	Footer section styles
+-------------------------------------------------------------- */
+
+.footer {clear:both;background: #000 url(/web/20110726114411im_/http://www.waltswisdom.com/images/bg_gradient.jpg) left top repeat-x; height: 34px;width: 100%;}
+.footer ul {list-style:none;margin: 0 58px;}
+.footer ul li {line-height:34px;display:inline;margin-right:10px;}
+.footer ul li a {color:#666;font-size:10px;}
+
+/* -------------------------------------------------------------
+	Overlay section styles
+-------------------------------------------------------------- */
+
+#overlay {
+position:absolute;
+}
+
+/*
+     FILE ARCHIVED ON 11:44:11 Jul 26, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:15:06 Nov 10, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 805.424
+  exclusion.robots: 0.088
+  exclusion.robots.policy: 0.079
+  cdx.remote: 0.057
+  esindex: 0.025
+  LoadShardBlock: 771.207 (3)
+  PetaboxLoader3.resolve: 998.77 (3)
+  PetaboxLoader3.datanode: 45.662 (4)
+  load_resource: 295.913
+*/
